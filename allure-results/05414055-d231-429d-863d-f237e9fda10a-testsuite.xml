@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660832789040' stop='1660832793424'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1660832789041' status='broken' stop='1660832793294'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps>
+                <step start='1660832789047' status='passed' stop='1660832792002'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0bb2cf33-d5f2-472c-a37f-d9de8bd413b5-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660832792005' status='passed' stop='1660832792028'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1af5c2ce-4f97-459c-94c9-768983f326e0-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='f37c981d-c24f-48dc-81b2-2b1c0e9d28ed-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660832792037' status='passed' stop='1660832792078'>
+                    <name>POST /session/:sessionId/element/fa03af2a-72c5-4f9d-81a2-7f40776cf691/clear</name>
+                    <title>POST /session/:sessionId/element/fa03af2a-72c5-4f9d-81a2-7f40776cf691/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660832792087' status='passed' stop='1660832792145'>
+                    <name>POST /session/:sessionId/element/fa03af2a-72c5-4f9d-81a2-7f40776cf691/value</name>
+                    <title>POST /session/:sessionId/element/fa03af2a-72c5-4f9d-81a2-7f40776cf691/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ec04a3c6-c70b-4649-a4b8-8bd28e7f5e34-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660832792147' status='passed' stop='1660832792174'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f27f2eee-ca49-473f-8974-e14393939926-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='82c15bba-98e9-4a9e-ad22-03254dca1d01-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660832792179' status='passed' stop='1660832792228'>
+                    <name>POST /session/:sessionId/element/b9036e85-dc3f-4f21-bd83-35b6aafd5e7b/clear</name>
+                    <title>POST /session/:sessionId/element/b9036e85-dc3f-4f21-bd83-35b6aafd5e7b/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660832792230' status='passed' stop='1660832792395'>
+                    <name>POST /session/:sessionId/element/b9036e85-dc3f-4f21-bd83-35b6aafd5e7b/value</name>
+                    <title>POST /session/:sessionId/element/b9036e85-dc3f-4f21-bd83-35b6aafd5e7b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='89130b98-17fb-4894-aec8-1468d2ea3fd6-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660832792397' status='passed' stop='1660832792434'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eeb77251-8244-488e-b035-c8114af14fa3-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='1d8549fc-9898-4fb8-a802-64397bc22c1e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660832792439' status='passed' stop='1660832793119'>
+                    <name>POST /session/:sessionId/element/d25db749-d5eb-4c09-b8ed-bdb5b694bcf8/click</name>
+                    <title>POST /session/:sessionId/element/d25db749-d5eb-4c09-b8ed-bdb5b694bcf8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660832793124' status='passed' stop='1660832793292'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a98128bb-c5a5-48f7-b401-90ae5baf7892-attachment.png' type='image/png' size='52402'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'isDevTools')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'isDevTools')
+                    at findElement (C:\Users\abhin\OneDrive\Documents\webDriver-io-practice\node_modules\webdriverio\build\utils\index.js:216:15)
+                    at $ (C:\Users\abhin\OneDrive\Documents\webDriver-io-practice\node_modules\webdriverio\build\commands\browser\$.js:91:43)
+                    at SecurePage.get flashAlert [as flashAlert] (C:\Users\abhin\OneDrive\Documents\webDriver-io-practice\test\pageobjects\secure.page.js:14:16)
+                    at Context.&lt;anonymous> (C:\Users\abhin\OneDrive\Documents\webDriver-io-practice\test\specs\example.e2e.js:9:33)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1660832793295' status='broken' stop='1660832793422'>
+            <name>it should logout and verify logout alert message</name>
+            <title>it should logout and verify logout alert message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps>
+                <step start='1660832793296' status='passed' stop='1660832793422'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='51f9a684-eac8-42d7-a91c-bc591f15ae55-attachment.png' type='image/png' size='52402'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>SecurePage.btnLogout.click is not a function</message>
+                <stack-trace>TypeError: SecurePage.btnLogout.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\abhin\OneDrive\Documents\webDriver-io-practice\test\specs\example.e2e.js:15:31)
+                    at Context.executeAsync (C:\Users\abhin\OneDrive\Documents\webDriver-io-practice\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\abhin\OneDrive\Documents\webDriver-io-practice\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,17 @@
+{
+  "name": "webdriver-io-practice",
+  "version": "1.0.0",
+  "description": "this is  webdriver io scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhinav Bassi",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^7.21.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.21.0"
+  }
+}
